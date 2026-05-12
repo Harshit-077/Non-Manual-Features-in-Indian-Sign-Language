@@ -8,9 +8,9 @@ A real-time **Indian Sign Language (ISL)** recognition system that combines thre
 
 ```
 .
-├── test.py                        # Main inference script (entry point)
-├── isl_nmf_expr_hm.ipynb          # Training notebook: Expression CNN + Head Movement TCN
-├── isl_pyt_200.ipynb              # Training notebook: ISL Sentence BiLSTM
+├── training/
+│   ├── isl_nmf_expr_hm.ipynb          # Training notebook: Expression CNN + Head Movement TCN
+│   └── isl_pyt_200.ipynb              # Training notebook: ISL Sentence BiLSTM
 │
 ├── isl_nmf/
 │   └── onnx/
@@ -21,9 +21,13 @@ A real-time **Indian Sign Language (ISL)** recognition system that combines thre
 │   ├── isl_best_model.pt          # Trained ISL Sentence BiLSTM weights
 │   └── label_encoder.pkl          # Sklearn LabelEncoder for sentence classes
 │
+├── hand_landmarker.task           # MediaPipe Hand Landmarker model
 ├── face_landmarker.task           # MediaPipe Face Landmarker model
 ├── pose_landmarker_full.task      # MediaPipe Pose Landmarker model
-└── hand_landmarker.task           # MediaPipe Hand Landmarker model
+├── test.py                        # Main inference script (entry point)
+└── requirements.txt
+
+
 ```
 
 ---
