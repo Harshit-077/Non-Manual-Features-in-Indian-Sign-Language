@@ -1,6 +1,10 @@
+old_/
 isl_nmf/
 old/
 cache/
 pose_landmarker_full.task
 hand_landmarker.task
 face_landmarker.task
+cookies.txt
+isign_workspace\cislr_videos
+isign_workspace\poses
