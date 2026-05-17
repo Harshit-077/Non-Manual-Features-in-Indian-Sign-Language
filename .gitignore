@@ -1,8 +1,7 @@
 isl_nmf/
 old/
+cache/
 pose_landmarker_full.task
 hand_landmarker.task
 face_landmarker.task
-training/
-models&config/
-all_old/
+.idea/
