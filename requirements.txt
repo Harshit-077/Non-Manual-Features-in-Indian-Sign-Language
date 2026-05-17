@@ -1,0 +1,20 @@
+# ISL Full Inference Pipeline — Requirements
+#
+# 1. Install PyTorch with CUDA (recommended):
+#    pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#    (adjust cu121 to match your CUDA version — see https://pytorch.org/get-started/locally/)
+#
+# 2. Then install the rest:
+#    pip install -r requirements.txt
+#
+# For CPU-only (no GPU):
+#    pip install torch torchvision
+#    pip install -r requirements.txt
+
+torch>=2.0.0
+torchvision>=0.15.0
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+albumentations>=1.3.0
+scikit-learn>=1.3.0
