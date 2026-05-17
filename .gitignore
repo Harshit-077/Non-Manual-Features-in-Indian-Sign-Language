@@ -5,4 +5,4 @@ hand_landmarker.task
 face_landmarker.task
 training/
 models&config/
-all_old/
+all_old/.idea/
