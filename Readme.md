@@ -8,10 +8,6 @@ A real-time **Indian Sign Language (ISL)** recognition system that combines thre
 
 ```
 .
-├── training/
-│   ├── isl_nmf_expr_hm.ipynb           # Training: Expression ResNetTCN + Head Movement TCN
-│   └── isl_pyt_200_tcn.ipynb           # Training: ISL Sentence TCN
-│
 ├── isl_nmf/
 │   ├── checkpoints/
 │   │   ├── expr_best.pt                # Expression model checkpoint
@@ -19,6 +15,9 @@ A real-time **Indian Sign Language (ISL)** recognition system that combines thre
 │   └── onnx/
 │       ├── expression_resnet_tcn.onnx  # Exported Expression model (B, T, C, H, W)
 │       └── head_movement_tcn.onnx      # Exported Head Movement TCN (B, T, 3)
+│
+├── isl_nmf_expr_hm.ipynb               # Training: Expression ResNetTCN + Head Movement TCN
+├── isl_pyt_200_tcn.ipynb               # Training: ISL Sentence TCN
 │
 ├── isl_best_model.pt                   # ISL Sentence TCN weights
 ├── label_encoder.pkl                   # Sklearn LabelEncoder for sentence classes
